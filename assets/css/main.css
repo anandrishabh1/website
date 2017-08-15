@@ -2090,7 +2090,7 @@
 				border-radius: 200%;
 				width: 200%;
 				position: relative;
-				left: 50px;
+				left: 10px;
 			}
 
 /* List */
@@ -2529,7 +2529,7 @@
 		}
 
 		#header .image.avatar {
-			margin: 0 0 2em 0px;
+			margin: 0 0 2em 0;
 			width: 6.25em;
 		}
 
