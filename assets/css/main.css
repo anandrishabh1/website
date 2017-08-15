@@ -2089,8 +2089,8 @@
 			.image.avatar img {
 				border-radius: 200%;
 				width: 200%;
-				position: absolute;
-				left: 200px;
+				position: relative;
+				left: 50px;
 			}
 
 /* List */
