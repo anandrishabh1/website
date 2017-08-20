@@ -2487,6 +2487,7 @@
 		background-position: top left,							top left;
 		background-repeat: repeat,								repeat;
 		background-size: auto 125%,								auto 125%;
+		margin: 60px;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2524,6 +2525,7 @@
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
+
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -2557,6 +2559,7 @@
 		background-position: top left,							top left;
 		background-repeat: repeat,								repeat;
 		background-size: auto 175%,								auto 175%;
+		margin: -60px;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
