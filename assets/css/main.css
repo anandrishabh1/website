@@ -1902,7 +1902,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #0078ff;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2353,7 +2353,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			border-color: #0078ff;
-			color: #49bf9d !important;
+			color: #0078ff !important;
 		}
 
 		input[type="submit"]:active,
@@ -2362,7 +2362,7 @@
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
 			border-color: #0078ff;
-			color: #49bf9d !important;
+			color: #0078ff !important;
 		}
 
 		input[type="submit"].icon,
@@ -2486,7 +2486,7 @@
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								repeat;
-		background-size: auto 175%,								auto 175%;
+		background-size: auto 125%,								auto 125%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
