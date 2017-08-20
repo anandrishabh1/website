@@ -70,7 +70,7 @@ Rishabh Anand<!DOCTYPE HTML>
 
             <div class="8u 12u$(2)">
 
-              <form method="post" action="http://formspree.io/rishabh3@illinois.edu">
+              <form method="post" id="contactform">
 
                 <div class="row uniform 50%">
 
@@ -78,7 +78,7 @@ Rishabh Anand<!DOCTYPE HTML>
 
                   <div class="6u$ 12u$(3)"><input type="email" name="email" id="email" placeholder="Email" /></div>
 
-                  <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                  <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div><br />
 
                 </div>
 		<ul class="actions">
@@ -86,31 +86,16 @@ Rishabh Anand<!DOCTYPE HTML>
                 <li><input type="submit" value="Send Message" /></li>
 
               </ul>
-
+		<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'rishabh3' + '@' + 'illinois' + '.' + 'edu');
+</script>
 
               </form>
 
               
             </div>
-						<!--<div class="row">
-							<div class="8u 12u$(small)">
-								
-								<form action="http://formspree.io/rishabh3@illinois.edu" method="POST">
-									<div class="row uniform 50%">
-									<div class="6u 12u$(xsmall)"><input name="name" type="name" placeholder="Your name"></div>
-  									<div class="6u 12u$(xsmall)"><input name="email" type="email" placeholder="Your email"></div>
-									<div class="12u$"><textarea name="message" placeholder="Your message" rows="4"></textarea></div>
-									<div class="12u$">
-										<ul class="actions">
-											<button type="submit">Send</button>
-										</ul> 
-										</div>
-									</div>
-									</form>
-								
-							</div>
-							-->
-							<div class="4u$ 12u$(small)">
+						<div class="4u$ 12u$(small)">
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="icon fa-home"><span class="label">Address</span></h3>
