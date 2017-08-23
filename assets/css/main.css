@@ -1547,7 +1547,6 @@
 		}
 
 	}
-
 /* Basic */
 
 	body {
@@ -1566,10 +1565,10 @@
 		}
 
 	body, input, select, textarea {
-		color: #1e1f5a;
+		color: #b2b2b2;
 		font-family: "Raleway", sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+		font-size: 15pt;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
