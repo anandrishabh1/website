@@ -2649,6 +2649,7 @@
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		height: 100vh;
 	}
 
 		#main > section {
@@ -2977,6 +2978,7 @@
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+				height: 100vh;
 			}
 
 	}
